@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Layout from '../components/MyLayout.js';\nimport Job from '../components/Job';\nexport default function Experience() {\n  return __jsx(Layout, null, __jsx(\"div\", null, __jsx(Job, null)));\n}","map":null,"metadata":{},"sourceType":"module"}

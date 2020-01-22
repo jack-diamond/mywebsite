@@ -1,0 +1,59 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/contact.js": 0,
+      "multi private-next-pages/experience.js": 1,
+      "multi private-next-pages/index.js": 2,
+      "multi private-next-pages/projects.js": 3,
+      "multi private-next-pages/resume.js": 4,
+      "multi next/dist/pages/_app": 5,
+      "multi next/dist/pages/_error": 6,
+      "multi next/dist/pages/_document": 7
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/_app.js": 2,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/_document.js": 3,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/_error.js": 4,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/contact.js": 5,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/experience.js": 6,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/index.js": 7,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/projects.js": 8,
+      "static/PsP_LFeWV0Ndu10IwXWP8/pages/resume.js": 9,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/_app.js": 10,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/_document.js": 11,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/_error.js": 12,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/contact.js": 13,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/experience.js": 14,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/index.js": 15,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/projects.js": 16,
+      "static/qevUNQrXQhuqaeH1mRHVy/pages/resume.js": 17
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+}

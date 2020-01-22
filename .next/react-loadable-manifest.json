@@ -1,0 +1,10 @@
+{
+  "null": [
+    {
+      "id": "Vdsi",
+      "name": "./node_modules/pdfjs-dist/build/pdf.worker.js",
+      "file": "static/chunks/pdfjsWorker.9e4fddb450478f21a590.js",
+      "publicPath": "static/chunks/pdfjsWorker.9e4fddb450478f21a590.js"
+    }
+  ]
+}
