@@ -15,7 +15,7 @@ export const Image = styled.img`
   display: flex;
   flex-direction: column;
   min-width: 1px;
-  max-width: 80%;
+  max-width: 500px;
   background: white;
   padding: 20px;
   border-radius: 10px;

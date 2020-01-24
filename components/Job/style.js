@@ -35,6 +35,7 @@ export const ItemTitle = styled.h3`
   line-height: 24px;
   color: #101010;
   display: flex;
+  font-family: Sans-Serif;
   align-items: center;
   justify-content: flex-start;
 `;
@@ -57,6 +58,7 @@ export const Badge = styled.span`
 export const ItemSubtitle = styled.p`
   font-size: 14px;
   font-weight: 600;
+  font-family: Sans-Serif;
   color: rgb(102, 102, 102);
   white-space: pre-wrap;
   line-height: 2;
@@ -65,6 +67,7 @@ export const ItemSubtitle = styled.p`
 
 export const ItemDescription = styled.p`
   font-size: 14px;
+  font-family: Sans-Serif;
   color: rgb(102, 102, 102);
   white-space: pre-wrap;
   line-height: 1.5;

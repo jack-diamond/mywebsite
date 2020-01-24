@@ -1,36 +1,39 @@
-import Link from 'next/link'
+import PrefixedLink from './PrefixedLink'
 
 const linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  paddingLeft: 20
 }
 
 export default function Header() {
   return (
     <div>
-      <Link href="/">
+      <PrefixedLink href="/">
         <h1 style={linkStyle}>Jack Diamond</h1>
-      </Link>
-      <Link href="/experience">
+      </PrefixedLink>
+      <PrefixedLink href="/experience">
         <a style={linkStyle}>Experience</a>
-      </Link>
-      <Link href="/projects">
+      </PrefixedLink>
+      <PrefixedLink href="/projects">
         <a style={linkStyle}>Projects</a>
-      </Link>
-      <Link href="/resume">
+      </PrefixedLink>
+      <PrefixedLink href="/resume">
         <a style={linkStyle}>Resume</a>
-      </Link>
-      <Link href="/contact">
+      </PrefixedLink>
+      <PrefixedLink href="/contact">
         <a style={linkStyle}>Contact</a>
-      </Link>
+      </PrefixedLink>
       <style jsx>{`
         div {
           display: flex;
           align-items: center;
+          border-bottom: 2px solid #eee;
         }
 
         h1 {
           flex-direction: row;
           flex-grow: 2;
+          font-family: Sans-Serif;
         }
 
         a {
@@ -38,7 +41,7 @@ export default function Header() {
           text-decoration: none;
           font-size: 16px;
           color: #666;
-          font-family: 'Helvetica';
+          font-family: Sans-Serif;
         }
       `}</style>
     </div>

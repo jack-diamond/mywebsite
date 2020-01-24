@@ -1,8 +1,8 @@
 import Header from './Header'
 
 const layoutStyle = {
-  margin: 20,
-  padding: 20,
+  //margin: 20,
+  //padding: 20,
 }
 
 export default function Layout(props) {
