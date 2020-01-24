@@ -1,4 +1,4 @@
-import PrefixedLink from './PrefixedLink'
+import Link from 'next/link'
 
 const linkStyle = {
   marginRight: 15,
@@ -8,21 +8,21 @@ const linkStyle = {
 export default function Header() {
   return (
     <div>
-      <PrefixedLink href="/">
+      <Link href="/">
         <h1 style={linkStyle}>Jack Diamond</h1>
-      </PrefixedLink>
-      <PrefixedLink href="/experience">
+      </Link>
+      <Link href="/experience">
         <a style={linkStyle}>Experience</a>
-      </PrefixedLink>
-      <PrefixedLink href="/projects">
+      </Link>
+      <Link href="/projects">
         <a style={linkStyle}>Projects</a>
-      </PrefixedLink>
-      <PrefixedLink href="/resume">
+      </Link>
+      <Link href="/resume">
         <a style={linkStyle}>Resume</a>
-      </PrefixedLink>
-      <PrefixedLink href="/contact">
+      </Link>
+      <Link href="/contact">
         <a style={linkStyle}>Contact</a>
-      </PrefixedLink>
+      </Link>
       <style jsx>{`
         div {
           display: flex;
