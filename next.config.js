@@ -1,5 +1,5 @@
 const repoNameURIPrefix =
-  process.env.NODE_ENV === 'production' ? '/your-repo-name' : '';
+  process.env.NODE_ENV === 'production' ? '/mywebsite' : '';
 
 module.exports = {
   assetPrefix: repoNameURIPrefix,
