@@ -1,25 +1,40 @@
 import styled from 'styled-components';
 
 export const ItemWrap = styled.div`
-  padding: 0 10px 20px;
+  padding: 20px 10px 20px;
   display: flex;
   justify-content: center;
 `;
 
-export const BlockItem = styled.a`
-  min-height: 114px;
+export const VisitorLog = styled.div`
   box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
   transition: box-shadow 0.2s ease 0s;
-  align-items: stretch;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-width: 1px;
-  max-width: 75%;
-  background: white;
+  width: 60%;
+  height: 400px;
   padding: 20px;
+  background-image: url('/visitor-log.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   border-radius: 10px;
-  justify-content: center;
+  text-decoration:none;
+  opacity: ${ props => props.disabled ? 0.5 : 1 };
+  &:hover {
+    text-decoration:none;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 30px 60px;
+    z-index: 1;
+  }
+`;
+
+export const Pyalgos = styled.a`
+  box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
+  transition: box-shadow 0.2s ease 0s;
+  width: 60%;
+  height: 400px;
+  padding: 20px;
+  background-image: url('/pyalgos.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
   text-decoration:none;
   opacity: ${ props => props.disabled ? 0.5 : 1 };
   &:hover {
@@ -35,6 +50,7 @@ export const ItemTitle = styled.h3`
   line-height: 24px;
   color: #101010;
   display: flex;
+  font-family: Sans-Serif;
   align-items: center;
   justify-content: flex-start;
 `;
@@ -57,6 +73,7 @@ export const Badge = styled.span`
 export const ItemSubtitle = styled.p`
   font-size: 14px;
   font-weight: 600;
+  font-family: Sans-Serif;
   color: rgb(102, 102, 102);
   white-space: pre-wrap;
   line-height: 2;
@@ -65,6 +82,7 @@ export const ItemSubtitle = styled.p`
 
 export const ItemDescription = styled.p`
   font-size: 14px;
+  font-family: Sans-Serif;
   color: rgb(102, 102, 102);
   white-space: pre-wrap;
   line-height: 1.5;
@@ -74,4 +92,11 @@ export const ItemDescription = styled.p`
 export const Container = styled.div`
   background-color: white;
   width: 100%;
+`;
+
+export const Inner = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
 `;
