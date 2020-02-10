@@ -273,7 +273,7 @@ function Job(props) {
       lineNumber: 31
     },
     __self: this
-  }, "- Wrote SQL stored procedures to aggregate data according to client customizations.", '\n', " Designed custom dashboards using SQL and HTML/CSS.", '\n', "- Used Microsoft SQL Server and C# to modify existing data by use of queries and functions.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
+  }, "- Wrote SQL stored procedures to aggregate data according to client customizations.", '\n', "- Designed custom dashboards using SQL and HTML/CSS.", '\n', "- Used Microsoft SQL Server and C# to modify existing data by use of queries and functions.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37

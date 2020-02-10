@@ -30,7 +30,7 @@ export default function Job(props) {
           <ItemSubtitle><i>Reno, NV</i></ItemSubtitle>
           <ItemDescription>
             - Wrote SQL stored procedures to aggregate data according to client customizations.
-            {'\n'} Designed custom dashboards using SQL and HTML/CSS.
+            {'\n'}- Designed custom dashboards using SQL and HTML/CSS.
             {'\n'}- Used Microsoft SQL Server and C# to modify existing data by use of queries and functions.
           </ItemDescription>
           </div>
