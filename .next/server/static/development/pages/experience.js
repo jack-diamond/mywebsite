@@ -293,7 +293,7 @@ function Job(props) {
       lineNumber: 13
     },
     __self: this
-  }, "Developed a full-stack application using Angular, Node, TypeScript and MS SQL Server.", '\n', "Designed custom API routes and classes in Express.", '\n', "Wrote stored procedures in SQL to interact with the API.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
+  }, "- Developed a full-stack application using Angular, Node, TypeScript and MS SQL Server.", '\n', "- Designed custom API routes and classes in Express.", '\n', "- Wrote stored procedures in SQL to interact with the API.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -366,7 +366,7 @@ function Job(props) {
       lineNumber: 31
     },
     __self: this
-  }, "Wrote SQL stored procedures to aggregate data according to client customizations.", '\n', "Designed custom dashboards using SQL and HTML/CSS.", '\n', "Used Microsoft SQL Server and C# to modify existing data by use of queries and functions.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
+  }, "- Wrote SQL stored procedures to aggregate data according to client customizations.", '\n', "- Designed custom dashboards using SQL and HTML/CSS.", '\n', "- Used Microsoft SQL Server and C# to modify existing data by use of queries and functions.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
