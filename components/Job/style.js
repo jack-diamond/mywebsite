@@ -11,15 +11,15 @@ export const BlockItem = styled.a`
   box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
   transition: box-shadow 0.2s ease 0s;
   align-items: stretch;
-  flex: 1;
+  flex-grow: 2;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-width: 1px;
-  max-width: 75%;
+  max-width: 50%;
   background: white;
   padding: 20px;
   border-radius: 10px;
-  justify-content: center;
+  justify-content: left;
   text-decoration:none;
   opacity: ${ props => props.disabled ? 0.5 : 1 };
   &:hover {
@@ -77,4 +77,11 @@ export const ItemDescription = styled.p`
 export const Container = styled.div`
   background-color: white;
   width: 100%;
+`;
+
+export const Inner = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
 `;

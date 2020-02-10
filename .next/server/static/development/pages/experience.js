@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -245,103 +245,141 @@ function Job(props) {
       lineNumber: 7
     },
     __self: this
-  }, __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemTitle"], {
+  }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, "Software Engineering Intern"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
+  }, __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemTitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "IGT"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
+  }, "Software Engineering Intern"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
+  }, "IGT"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
   }, __jsx("i", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, "September 2019 - Present")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, __jsx("i", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Reno, NV")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemDescription"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "Developed a full-stack application using Angular, Node, TypeScript and MS SQL Server.", '\n', "Designed custom API routes and classes in Express.", '\n', "Wrote stored procedures in SQL to interact with the API."))), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemWrap"], {
+  }, "Reno, NV")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemDescription"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Developed a full-stack application using Angular, Node, TypeScript and MS SQL Server.", '\n', "Designed custom API routes and classes in Express.", '\n', "Wrote stored procedures in SQL to interact with the API.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["BlockItem"], {
+  }, __jsx("img", {
+    src: "/igt-logo.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemTitle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "BI Developer Intern"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Iridium Technology"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("i", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "Summer 2019")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
+  })))), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemWrap"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, __jsx("i", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "Reno, NV")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemDescription"], {
+  }, __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["BlockItem"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, "Wrote SQL stored procedures to aggregate data according to client customizations.", '\n', "Designed custom dashboards using SQL and HTML/CSS.", '\n', "Used Microsoft SQL Server and C# to modify existing data by use of queries and functions."))));
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "BI Developer Intern"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Iridium Technology"), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("i", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Summer 2019")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemSubtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("i", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Reno, NV")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["ItemDescription"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Wrote SQL stored procedures to aggregate data according to client customizations.", '\n', "Designed custom dashboards using SQL and HTML/CSS.", '\n', "Used Microsoft SQL Server and C# to modify existing data by use of queries and functions.")), __jsx(_style__WEBPACK_IMPORTED_MODULE_1__["Inner"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/it-logo.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  })))));
 }
 
 /***/ }),
@@ -350,7 +388,7 @@ function Job(props) {
 /*!*********************************!*\
   !*** ./components/Job/style.js ***!
   \*********************************/
-/*! exports provided: ItemWrap, BlockItem, ItemTitle, Badge, ItemSubtitle, ItemDescription, Container */
+/*! exports provided: ItemWrap, BlockItem, ItemTitle, Badge, ItemSubtitle, ItemDescription, Container, Inner */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -362,6 +400,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemSubtitle", function() { return ItemSubtitle; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDescription", function() { return ItemDescription; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Container", function() { return Container; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Inner", function() { return Inner; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -375,15 +414,15 @@ const BlockItem = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a`
   box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
   transition: box-shadow 0.2s ease 0s;
   align-items: stretch;
-  flex: 1;
+  flex-grow: 2;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-width: 1px;
-  max-width: 75%;
+  max-width: 50%;
   background: white;
   padding: 20px;
   border-radius: 10px;
-  justify-content: center;
+  justify-content: left;
   text-decoration:none;
   opacity: ${props => props.disabled ? 0.5 : 1};
   &:hover {
@@ -436,6 +475,12 @@ const ItemDescription = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a
 const Container = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
   background-color: white;
   width: 100%;
+`;
+const Inner = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
 `;
 
 /***/ }),
@@ -2313,7 +2358,7 @@ function Experience() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /*!***********************************!*\
   !*** multi ./pages/experience.js ***!
   \***********************************/
