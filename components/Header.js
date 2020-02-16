@@ -34,6 +34,7 @@ export default function Header() {
           flex-direction: row;
           flex-grow: 2;
           font-family: Sans-Serif;
+          cursor: pointer;
         }
 
         a {
