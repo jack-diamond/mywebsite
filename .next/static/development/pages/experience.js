@@ -12602,7 +12602,7 @@ function Experience() {
 
 /***/ }),
 
-/***/ 8:
+/***/ 0:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fexperience&absolutePagePath=%2FUsers%2Fjackdiamond%2FDesktop%2Fmywebsite%2Fpages%2Fexperience.js ***!
   \***********************************************************************************************************************************************/
@@ -12625,5 +12625,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=experience.js.map

@@ -31258,7 +31258,7 @@ exports.SVGGraphics = SVGGraphics;
           input = new Buffer(literals);
         }
 
-        var output = __webpack_require__(/*! zlib */ 3).deflateSync(input, {
+        var output = __webpack_require__(/*! zlib */ 4).deflateSync(input, {
           level: 9
         });
 
@@ -32450,11 +32450,11 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-var fs = __webpack_require__(/*! fs */ 4);
+var fs = __webpack_require__(/*! fs */ 5);
 
-var http = __webpack_require__(/*! http */ 5);
+var http = __webpack_require__(/*! http */ 6);
 
-var https = __webpack_require__(/*! https */ 6);
+var https = __webpack_require__(/*! https */ 7);
 
 var url = __webpack_require__(/*! url */ "./node_modules/native-url/dist/index.js");
 
@@ -44380,7 +44380,7 @@ function Resume() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fresume&absolutePagePath=%2FUsers%2Fjackdiamond%2FDesktop%2Fmywebsite%2Fpages%2Fresume.js ***!
   \***************************************************************************************************************************************/
@@ -44392,7 +44392,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fresume
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**********************!*\
   !*** zlib (ignored) ***!
   \**********************/
@@ -44403,7 +44403,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fresume
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!********************!*\
   !*** fs (ignored) ***!
   \********************/
@@ -44414,7 +44414,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fresume
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!**********************!*\
   !*** http (ignored) ***!
   \**********************/
@@ -44425,7 +44425,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fresume
 
 /***/ }),
 
-/***/ 6:
+/***/ 7:
 /*!***********************!*\
   !*** https (ignored) ***!
   \***********************/
@@ -44447,5 +44447,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=resume.js.map

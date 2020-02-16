@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -332,7 +332,7 @@ const ItemWrap = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
 const VisitorLog = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
   box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
   transition: box-shadow 0.2s ease 0s;
-  width: 60%;
+  width: 40%;
   height: 400px;
   padding: 20px;
   background-image: url('/visitor-log.png');
@@ -350,7 +350,7 @@ const VisitorLog = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div`
 const Pyalgos = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a`
   box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
   transition: box-shadow 0.2s ease 0s;
-  width: 60%;
+  width: 40%;
   height: 400px;
   padding: 20px;
   background-image: url('/pyalgos.png');
@@ -2253,7 +2253,7 @@ function Projects() {
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!*********************************!*\
   !*** multi ./pages/projects.js ***!
   \*********************************/

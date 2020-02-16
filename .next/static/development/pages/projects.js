@@ -293,7 +293,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;\n  transition: box-shadow 0.2s ease 0s;\n  width: 60%;\n  height: 400px;\n  padding: 20px;\n  background-image: url('/pyalgos.png');\n  background-size: 100% 100%;\n  background-repeat: no-repeat;\n  border-radius: 10px;\n  text-decoration:none;\n  opacity: ", ";\n  &:hover {\n    text-decoration:none;\n    box-shadow: rgba(0, 0, 0, 0.12) 0 30px 60px;\n    z-index: 1;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;\n  transition: box-shadow 0.2s ease 0s;\n  width: 40%;\n  height: 400px;\n  padding: 20px;\n  background-image: url('/pyalgos.png');\n  background-size: 100% 100%;\n  background-repeat: no-repeat;\n  border-radius: 10px;\n  text-decoration:none;\n  opacity: ", ";\n  &:hover {\n    text-decoration:none;\n    box-shadow: rgba(0, 0, 0, 0.12) 0 30px 60px;\n    z-index: 1;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -303,7 +303,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;\n  transition: box-shadow 0.2s ease 0s;\n  width: 60%;\n  height: 400px;\n  padding: 20px;\n  background-image: url('/visitor-log.png');\n  background-size: 100% 100%;\n  background-repeat: no-repeat;\n  border-radius: 10px;\n  text-decoration:none;\n  opacity: ", ";\n  &:hover {\n    text-decoration:none;\n    box-shadow: rgba(0, 0, 0, 0.12) 0 30px 60px;\n    z-index: 1;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;\n  transition: box-shadow 0.2s ease 0s;\n  width: 40%;\n  height: 400px;\n  padding: 20px;\n  background-image: url('/visitor-log.png');\n  background-size: 100% 100%;\n  background-repeat: no-repeat;\n  border-radius: 10px;\n  text-decoration:none;\n  opacity: ", ";\n  &:hover {\n    text-decoration:none;\n    box-shadow: rgba(0, 0, 0, 0.12) 0 30px 60px;\n    z-index: 1;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -12496,7 +12496,7 @@ function Projects() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 2:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2FUsers%2Fjackdiamond%2FDesktop%2Fmywebsite%2Fpages%2Fprojects.js ***!
   \*******************************************************************************************************************************************/
@@ -12519,5 +12519,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map

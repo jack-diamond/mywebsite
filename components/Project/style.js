@@ -9,7 +9,7 @@ export const ItemWrap = styled.div`
 export const VisitorLog = styled.div`
   box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
   transition: box-shadow 0.2s ease 0s;
-  width: 60%;
+  width: 40%;
   height: 400px;
   padding: 20px;
   background-image: url('/visitor-log.png');
@@ -28,7 +28,7 @@ export const VisitorLog = styled.div`
 export const Pyalgos = styled.a`
   box-shadow: rgba(0, 0, 0, 0.12) 0 5px 10px;
   transition: box-shadow 0.2s ease 0s;
-  width: 60%;
+  width: 40%;
   height: 400px;
   padding: 20px;
   background-image: url('/pyalgos.png');
